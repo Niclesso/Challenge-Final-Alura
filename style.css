@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+body {
+    min-height: 100%;
+    background-color: white;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+/* ---------Header------------ */
+.presentacion_contenido {
+    display: flex;
+    justify-content: left;
+    font-size: 85%;
+    border-bottom: solid 1px #bcbcbc;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+/* ---------Section 1------------ */
+
+.container_texto {
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; 
+}
+
+.input_message {
+    align-self: flex-start;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border: solid 1px black;
+    width: 50%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-size: 7px;
+
+}
+.input_message_txt{
+    padding-left: 15px;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.return_message {
+    align-self: flex-end;
+    background: rgb(148,187,233);
+    background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);
+    border: solid 1px #000000;
+    color: white;
+    width: 50%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding-right: 20px;
+    font-size: 7px;
+}
+.return_message_txt{
+    padding-left: 15px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+/* ---------Section 2------------ */
+
+.input_text {
+    width: 98vw;
+    height: 7vh;
+    border-bottom: solid 0px #bcbcbc;
+    border-top: solid 1px #bcbcbc;
+    color: black;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 20px;
+    padding: 0px;
+}
+.input_text::-webkit-input-placeholder {
+    text-align: center;
+    line-height: 100px;
+    /* Centrado vertical */
+}
+.input_text:focus {
+    border-top: solid 1px #bcbcbc;
+    outline: none;
+}
+
+
+/* ---------Section 3------------ */
+
+.section_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+}
+
+.buttons {
+    padding: 0px 15px;
+}
+
+.button_1 {
+    border-radius: 5px;
+    color: black;
+    background-color: #eeaeca;
+    border: solid 1px #000000;
+    width: 28%;
+    height: 35px;
+    cursor: pointer;
+}
+
+.button_2 {
+    border-radius: 5px;
+    color: white;
+    background-color: #94bbe9;
+    border: solid 1px white;
+    width: 28%;
+    height: 35px;
+    cursor: pointer;
+}
+
+
+/* ---------General------------ */
+
+.display_flex {
+    display: flex;
+}
+
+.rw {
+    flex-direction: row;
+}
+
+.padding {
+    border-bottom: solid 0px #bcbcbc;
+    border-top: solid 1px #bcbcbc;
+    width: 2vh;
+}
+.m0{
+    margin: 0px;
+}
+
+.footer{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+}
